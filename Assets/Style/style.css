@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;   
+    box-sizing: border-box;
+    background-color: #1C1427;
+}
+
+.main{
+    padding: 16px;
+}
+
+body{
+    max-width: 1440px;
+    width: 90%;
+    margin: auto;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 8px;
+    color: aqua;
+    background-color: blue;
+}
+
+#inputContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+}
+
+#inputContainer div{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    color: #ddd;
+}
+
+#inputContainer input{
+    width: 88%;
+    height: 28px;
+    color: #ddd;
+    border: none;
+    box-shadow: 1px 1px 2px 2px lightblue;
+}
+
+.inputname{
+    margin-left: 16px;
+    font-size: 20px;
+    /* text-align: center; */
+}
+
+.btnclass{
+    width: 4%;
+    margin-left:20px;
+    margin-top: 12px;
+    padding: 4px;
+    background-color: aqua;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.btnclass:hover{
+    width: 4%;
+    margin-left:20px;
+    margin-top: 12px;
+    padding: 4px;
+    background-color: red;
+    cursor: pointer;
+}
+
+
+.main-table{
+    margin: 5rem 0;
+    border: 2px solid black;
+    padding: 2rem;
+}
+
+.main-table table {
+    width: 100%;
+}
+
+.main-table td, .main-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    color: #ddd;
+}
+
+.main-table tr:nth-child(even){background-color: blue}
+.main-table tr:hover {background-color:blue}
+
+
+.main-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: orange;
+    color: white;
+}
